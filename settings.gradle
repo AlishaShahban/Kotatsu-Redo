@@ -28,5 +28,10 @@ dependencyResolutionManagement {
 	}
 }
 
-include ':app'
+include ':app', ':kotatsu-parsers-redo', ':kotatsu-parsers-ksp'
+
+project(':kotatsu-parsers-redo').projectDir = new File('/Users/alisha/Kotatsu-Development/kotatsu-parsers-redo')
+project(':kotatsu-parsers-ksp').projectDir = new File('/Users/alisha/Kotatsu-Development/kotatsu-parsers-redo/kotatsu-parsers-ksp')
+
+
 rootProject.name = "Kotatsu"

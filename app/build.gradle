@@ -130,9 +130,9 @@ dependencies {
 		parsersVersion = System.getProperty('parsersVersionOverride')
 	}
 	//noinspection UseTomlInstead
-	implementation("com.github.clquwu:kotatsu-parsers-redo:$parsersVersion") {
-		exclude group: 'org.json', module: 'json'
-	}
+    implementation(project(':kotatsu-parsers-redo')) {
+        exclude group: 'org.json', module: 'json'
+    }
 
 	coreLibraryDesugaring libs.desugar.jdk.libs
 	implementation libs.kotlin.stdlib

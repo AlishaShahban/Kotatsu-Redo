@@ -11,6 +11,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/../kotatsu-parsers-redo" />
+            <option value="$PROJECT_DIR$/../kotatsu-parsers-redo/kotatsu-parsers-ksp" />
           </set>
         </option>
       </GradleProjectSettings>
